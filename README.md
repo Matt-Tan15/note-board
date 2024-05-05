@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">  <img src="https://cdn-icons-png.flaticon.com/512/223/223002.png" width="40" alt="Logo" align="left" style="margin-right: 10px;"><h1 align="left">NoteBoard</h1>  </div>
 
-## Getting Started
+A full-stack web application that enables cross-functional teams to manage documentation throughout each department, including engineering, partnerships, and leadership. 
 
-First, run the development server:
+Tech Stack: - TypeScript - Next.js - React - Convex
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<div align="center" style="padding-left: 20px;">  <p width="25" alt="Logo" align="left" style="margin-right: 10px;">🔗<a href="https://note-board-app.vercel.app/">NoteBoard Live!</a></p></div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div align="center">  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Blue_magnifying_glass_icon.svg/1200px-Blue_magnifying_glass_icon.svg.png" width="27" alt="Logo" align="left" style="margin-right: 10px;"><h2 align="left">Core Features</h2>  </div>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-   📝  **Notion-style Editor**  - Expedite document generation and modification processes.
+-   📄   **File Management** - Optimized management of uploads, removals, and substitutions.
+-   ♾️  **Unlimited Document Nesting**  - Smoothly structure data with a hierarchical organization
+-   🗑️  **Advanced Deletion**  - Intuitive garbage bin equipped with a sophisticated archive system.
+-   💽  **Real-time Database**  - Instant data synchronization.
+-   🔆  **Light and Dark Modes**  - User-centric display settings to cater to individual preferences.
+-   🔒  **Secure Authentication**  - Secure access controls employing robust security mechanisms.
+-   📡  **Publishing**  - Effortlessly share notes online with simple publishing tools.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<div align="center">  <img src="https://cdn-icons-png.freepik.com/512/6490/6490790.png" width="30" alt="Logo" align="left" style="margin-right: 10px;"><h2 align="left">Demo</h2>  </div>
 
-## Learn More
+### Landing Page
+![image](https://github.com/Matt-Tan15/note-board/assets/91209885/f3ef62e5-fd7f-4917-acda-c2e1817fd615)
 
-To learn more about Next.js, take a look at the following resources:
+### Documents Page
+![Screenshot 2024-05-05 181023](https://github.com/Matt-Tan15/note-board/assets/91209885/08f76402-0304-4461-9f95-c42e65278132)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Search Feature
+![Screenshot 2024-05-05 180854](https://github.com/Matt-Tan15/note-board/assets/91209885/ce5b5c86-20bc-407f-b241-89fe2ce6a572)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Dark Mode
+![Screenshot 2024-05-05 180749](https://github.com/Matt-Tan15/note-board/assets/91209885/3d450146-8a90-4b8f-865f-dfd3c395f2c5)
 
-## Deploy on Vercel
+<div align="center">  <img src="https://cdn-icons-png.freepik.com/512/7730/7730324.png" width="30" alt="Logo" align="left" style="margin-right: 10px;"><h2 align="left">Built With</h2>  </div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   **TypeScript**
+-   **React**
+-   **Next.js**
+-   **Convex**
+-   **EdgeStore**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div align="center">  <img src="https://cdn-icons-png.flaticon.com/512/3382/3382506.png" width="30" alt="Logo" align="left" style="margin-right: 10px;"><h2 align="left">Start your own NoteBoard locally!</h2>  </div>
+
+Follow these steps to get NoteBoard up and running on your machine:
+### Step 1: Clone the repository
+
+    git clone git@github.com:Matt-Tan15/note-board.git
+
+### Step 2: Create an `.env` file:
+Create a file in your root directory with the required environment variables
+
+    NEXT_PUBLIC_CONVEX_URL=
+    
+    EDGE_STORE_ACCESS_KEY=
+    EDGE_STORE_SECRET_KEY=
+    
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+
+### Step 3: Install the dependencies
+
+    npm i
+
+### Step 4: Set up Convex
+
+    npx convex dev
+
+### Step 5: Run your app locally
+
+    npm run dev
