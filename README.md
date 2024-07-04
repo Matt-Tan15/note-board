@@ -10,7 +10,7 @@ Tech Stack: - TypeScript - Next.js - React - Convex
 
 -   📝  **Notion-style Editor**  - Expedite document generation and modification processes.
 -   📄   **File Management** - Optimized management of uploads, removals, and substitutions.
--   ♾️  **Unlimited Document Nesting**  - Smoothly structure data with a hierarchical organization
+-   ♾️  **Unlimited Document Nesting**  - Smoothly structure data with a hierarchical organization.
 -   🗑️  **Advanced Deletion**  - Intuitive garbage bin equipped with a sophisticated archive system.
 -   💽  **Real-time Database**  - Instant data synchronization.
 -   🔆  **Light and Dark Modes**  - User-centric display settings to cater to individual preferences.
@@ -38,6 +38,7 @@ Tech Stack: - TypeScript - Next.js - React - Convex
 -   **Next.js**
 -   **Convex**
 -   **EdgeStore**
+-   **Clerk**
 
 <div align="center">  <img src="https://cdn-icons-png.flaticon.com/512/3382/3382506.png" width="30" alt="Logo" align="left" style="margin-right: 10px;"><h2 align="left">Start your own NoteBoard locally!</h2>  </div>
 
